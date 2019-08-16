@@ -25,7 +25,7 @@ const LaunchList = props => {
               <Launch launch={launch} key={launch.flight_number} />
             ))
           )}
-    {/* <iframe frameBorder="0" className="telemetry" src="https://www2.flightclub.io/result/2d?code=T18V"/> */}
+    
     </div>
   );
 };
